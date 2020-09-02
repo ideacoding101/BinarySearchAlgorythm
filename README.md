@@ -1,2 +1,6 @@
 # BinarySearchAlgorythm
-This is the source code for an instagram post I made where we discuss how the Binary Search Algorythm works. You can acces it by clicking here :D
+This is the source code for an instagram post I made where we discuss how the Binary Search Algorythm works. You can acces it by clicking [here :D](https://www.instagram.com/ideacoding101/)
+
+# HOW DOES IT WORK?
+In my instagram post we also discuss the way this algorythm functions, here's a more in depth explanation. So basically, we'll follow the same procces the function follows and we'll explain everything from that point. At the bottom of the file, we call the function and we store the value if outputs into a variable, later we print the variable. When we call the function, we pass a few parameters: the list that contains the element we want to look for(which need to be sorted), the target we are looking for, the index of the first item(or the item in the left) which is going to be 0 and finally the index of the item in the right which is gonna be the list' lenght minus one because we start counting from zero.
+Now, we do a while loop that checks if the right is bigger than the left index, which always should unless they overlap, that would mean that we found the number we were looking for. In order to find that number, we select the center of the list and we check if this is the number we were looking for, if it's not, we check if it's bigger or smaller. Depending on that last condition, we'll discard the elements of the left or the elements of the right
