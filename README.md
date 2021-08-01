@@ -2,10 +2,6 @@
 This is the source code for an instagram post I made where we discuss how the Binary Search Algorythm works. You can acces it by clicking [here :D](https://www.instagram.com/p/CEmW6CzF_gO/)
 
 <p align="center">
-  <img src="https://github.com/ideacoding101/images/blob/master/large_logo.png" width="461" height="291" alt="ideacoding">
-</p>
-  
-<p align="center">
  <a href="https://www.fiverr.com/ideacoding">
     <img src="https://img.shields.io/uptimerobot/status/m778918918-3e92c097147760ee39d02d36?color=%231DBF73&label=WANNA%20LEARN%20PYTHON%3F&logo=Fiverr&style=for-the-badge"
         alt="Fiverr">
@@ -25,9 +21,18 @@ This is the source code for an instagram post I made where we discuss how the Bi
     <img src="https://img.shields.io/uptimerobot/status/m778918918-3e92c097147760ee39d02d36?color=%23D14836&label=contact%20me&logo=gmail&logoColor=%23D14836&style=for-the-badge"
         alt="Gmail">
   </a>
-
+  
+   <a href="https://ideacoding.medium.com/">
+    <img src="https://img.shields.io/website?down_color=black&down_message=up&label=read%20my%20articles&logo=Medium&style=for-the-badge&up_color=black&up_message=up&url=https%3A%2F%2Fshields.io"
+        alt="Medium">
+   </a>
+  
+   <a href="https://www.tiktok.com/@ideacoding">
+    <img src="https://img.shields.io/website?color=%23EE1D52&down_color=%23000000&down_message=up&label=visit%20my%20tiktok&logo=TikTok&style=for-the-badge&up_color=%23000000&up_message=up&url=https%3A%2F%2Fshields.io"
+        alt="TikTok">
+   </a>
+  
 </p>
-
 
 # HOW DOES IT WORK?
 In my instagram post we also discuss the way this algorythm functions, here's a more in depth explanation. So basically, we'll follow the same procces the function follows and we'll explain everything from that point. At the bottom of the file, we call the function and we store the value it outputs into a variable, later we print the variable. When we call the function, we pass a few parameters: the list that contains the element we want to look for(the list need to be sorted), the target we are looking for, the index of the first item (or the item in the left) which is going to be 0 and finally the index of the item in the right which is gonna be the list' lenght minus one because we start counting from zero.
